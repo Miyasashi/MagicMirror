@@ -1,5 +1,5 @@
 var config = {
-    lang: 'nl',
+    lang: 'eng',
     time: {
         timeFormat: 12,
         displaySeconds: true,
@@ -9,11 +9,11 @@ var config = {
         //change weather params here:
         //units: metric or imperial
         params: {
-            q: 'Baarn,Netherlands',
+            q: 'Baarn,Netherlands', // city id from greven germany
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
-            lang: 'nl',
-            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
+            lang: 'eng',
+            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY' // api key
         }
     },
     compliments: {
@@ -21,18 +21,25 @@ var config = {
         fadeInterval: 4000,
         morning: [
             'Good morning, handsome!',
-            'Enjoy your day!',
-            'How was your sleep?'
+            'Bonjour',
+            '早安',
+            'Guten Morgen',
+            'buenos días'
         ],
         afternoon: [
             'Hello, beauty!',
-            'You look sexy!',
-            'Looking good today!'
+            'Good afternoon',
+            'Bon après-midi',
+            'Schönen Nachmittag',
+            'Hermosa tarde'
+            
         ],
         evening: [
             'Wow, you look hot!',
-            'You look nice!',
-            'Hi, sexy!'
+            'Good evening',
+            'Bonne soirée',
+            'Schönen Abend',
+            'Noche agradable'
         ]
     },
     calendar: {
@@ -63,6 +70,6 @@ var config = {
 		]
     },
     news: {
-        feed: 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml'
+        feed: 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml' // vllt ändern
     }
 }
