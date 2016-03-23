@@ -13,7 +13,7 @@ var config = {
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
             lang: 'eng',
-            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY' // api key
+            APPID: 'df8109fa8d5bcb1eb915bfa8648a9780' // api key
         }
     },
     compliments: {
