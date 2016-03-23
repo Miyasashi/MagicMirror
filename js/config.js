@@ -9,7 +9,7 @@ var config = {
         //change weather params here:
         //units: metric or imperial
         params: {
-            q: 'Baarn,Netherlands', // city id from greven germany
+            q: 'Greven,DE', // city id from greven germany
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
             lang: 'eng',
